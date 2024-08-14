@@ -1,5 +1,6 @@
 using System;
-
+//Fecha: 12/08/2024
+//Autor: Jeronimo pulgarin
 public class nota
 {
     static void Main ()
