@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="styleinicio.css">
+	<link rel="stylesheet" href="listas.html">
+<link rel="stylesheet" href="styleInicio.css">
+</head>
+<body>
+	
+
+	<div class="head"> 
+
+    <div class="logo">
+<a href="#" >logo</a>
+
+	</div>
+
+<nav class="navbar">
+<a href="#">Inicio</a>
+<a href="file:///C:/Users/SAMUEL/Documents/Mi%20pagina%20web/listas.html" class="w3-bar-item w3-button">listas</a>"
+<a href="file:///C:/Users/SAMUEL/Documents/Mi%20pagina%20web/registro.html" class="w3-bar-item w3-button">Registros</a>
+</nav>
+
+
+</div>
+
+	</div>
+
+<header class="content header">
+<h2 class="title">Matriculas</h2>
+<p>
+Esta es una pagina web, la cual tiene como objetivo: Gestionar, Facilitar y Administar las mastriculas de los estudiantes.
+Creada como un proyecto para la Jose Acevedo y Gomez 
+
+</p>
+
+<div class="btn-home">
+<a href="#"class="btn">Mas informacion</a>
+<a href="#"class="btn">Mas informacion</a>
+</div>
+</header>
+ <body>
+	
+</body>
+
+</body>
+</html>
