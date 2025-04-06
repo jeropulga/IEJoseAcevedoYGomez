@@ -1,26 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculas IE Jose acevedo y gomez</title>
+    <link rel="stylesheet" href="Registros.css">
+</head>
 <body>
-
-<h2>Registrar Estudiante</h2>
-
-<form>
-  <label for="nc">nombre completo:</label><br>
-  <input type="text" id="nm" name="nm" ><br>
-  <label for="ap">apellido:</label><br>
-  <input type="text" id="ap" name="ap" <> <br>
-  <label for="nc">Documento de identidad:</label><br>
-  <input type="text" id="dni" name="dni" value=""><br>
-  <label for="ap">Correo electronico:</label><br>
-  <input type="text" id="ce" name="ce" value=><br>
-  <label for="ap">Fecha de nacimiento:</label><br>
-  <input type="text" id="Fn" name="FN" value=><br>
-  <label for="ap">Genero:</label><br>
-  <input type="text" id="gn" name="gn" value=><br><br>
-  <button> Siguiente </button>
-</form>
-
-
-
+    <form>
+        <h1>Registro</h1>
+    <h2>1. Informacion del estudiante</h2>
+        <label</label><br>
+        <label>Nombre del estudiante</label><input type="text" required id="nm"  name="Nombre del estudiante:"><br>
+        <label>Apellido</label><input type="text" required id="ap" name="Apellido:"><br>
+        <label>genero</label><input type="text" required id="dni" name="Genero:"><br>
+        <label>Lugar de espedición</label><input type="text" required id="Le" name="Lugar de expedicion:"><br>
+        <label>Fecha de nacimiento</label><input type="date" required id="Fn" name="Fecha de nacimiento:"><br>
+        <label>Municipio de nacimiento</label><input type="text" required id="Mn" name="Municipio de nacimiento:"><br>
+        <label>Departamento de nacimiento</label><input type="text" required id="Dn" name="Departamento de nacimiento:"><br>
+        <label>Direcccion</label><input type="text" required id="Dr" name="Direcccion :"><br>
+        <label>Zona reridencial</label><input type="text" required id="Zr" name="Zona residencial:"><br>
+        <label>Comuna</label><input type="text" required id="Cm" name="Comuna:"><br>
+        <label>Documento de indentidad</label><input type="text" required id="dni" name="Documento de indentidad:"><br>
+        <label>Correo electronico</label><input type="email" required id="ce" name="Correo electronico:"><br>
+        <label>Estrato</label><input type="text" required id="Et" name="Estrato:"><br>
+        <label>Numero de telefono (fijo)</label><input type="text" required id="Ntf" name="Numero de telefono (Fijo):"><br>
+        <label>Nmuero de telefono (movil)</label><input type="text" required id="Nt" name="Numero de telefono (movil):"><br>
+        <label>Barrio</label><input type="text" required id="Br" name="Barrio:"><br>
+        <label>Tipo de Eps actual</label><input type="text" required id="Eps" name="Tipo de Eps actual:"><br>
+        <label>Tipo de sangre</label><input type="text" required id="Sg" name="Tipo de sangre:"><br>
+        <label>Sisben</label><input type="text" required id="Sb" name="Sisben:"><br>
+        <label>Puntaje</label><input type="text"  id="Pt" name="Puntaje:"><br>
+        <label>Es desplazado</label><input type="text"  id="dp" name="es desplazado:"><br>
+        <label>Departamento Expulsor</label><input type="text"  id="DE" name="Departamento Expulsor:"><br>
+        <label>Fecha de expulsion</label><input type="date"  id="" name="Fecha de expulsion:"><br>
+        <h2>2 Datos de la institución</h2>
+        <label>Nombre de la institución</label><input type="text" required id="NI" name="Nombre de la institución:"><br>
+        <label>Es publica o privada</label><input type="text" required id="PoP" name="Es publica o privada:"><br>
+        <label>Ultimo grado cursado</label><input type="text" required id="" name="Ultimo grado cursado :"><br>
+        <label>Año al cual aspira ingresar</label><input type="text" required id="AI" name="Año el cual aspira a ingresar :"><br>
+        <label>Vigencia</label><input type="text" required id="V" name="Vigencia:"><br>
+        <label>Si presenta alguna discapacidad describala</label><input type="text"  id="Di" name="Si presenta alguna discapacidad escribala:"><br>
+        <label>Si tiene necesidades educativas describalas</label><input type="text"  id="ND" name="Si tiene necesidades educativas describalas:"><br>
+        <label>Seleccione si el aspirante tiene que repetir el año</label><input type="text" required id="AR" name="Seleccione si el aspirante tiene que repetir el Año:"><br>
+        <label>Que modalidad alimentaria aspira el estudiante</label><input type="text" required id="ME" name="Que modadilad educativa aspira el estudiante:"><br>
+        <h2>3 Datos del padre</h2>
+        <label>Nombre del Padre</label><input type="text" required id="Np" name="Nombre del padre:"><br>
+        <label>Tipo de sangre</label><input type="text" required id="TP" name="Tipo de sangre:"><br>
+        <label>N CC</label><input type="text" required id="Ncc" name="N cc:"><br>
+        <label>Ocupación del Padre</label><input type="text" required id="OP" name="Ocupación del padre:"><br>
+        <label>Dirección</label><input type="text" required id="D" name="Dirrecion:"><br>
+        <label>Empresa donde labora</label><input type="text" required id="EL" name="Empresa donde labora:"><br>
+        <label>Numero de telefono (Fijo)</label><input type="text" required id="NFP" name="Numero de telefono (movil):"><br>
+        <label>Numero de telefono (Movil)</label><input type="text" required id="NFp" name="Numero de telefono (Fijo):"><br>
+        <h2>4 Datos de la madre</h2>
+        <label>Nombre de la madre</label><input type="text" required id="NM" name="Nombre de la madre:"><br>
+        <label>Tipo de Sangr</label><input type="text" required id="TPM" name="Tipo de sangre:"><br>
+        <label>N CC</label><input type="text" required id="NccM" name="N cc:"><br>
+        <label>Ocupación de la madre</label><input type="text" required id="OM" name="Ocupación de la madre:"><br>
+        <label>Dirección</label><input type="text" required id="DM" name="Dirrecion:"><br>
+        <label>Empresa donde labora</label><input type="text" required id="ELM" name="Empresa donde labora:"><br>
+        <label>Numero de telefono (Fijo)</label><input type="text" required id="NFP" name="Numero de telefono (movil):"><br>
+        <label>NUmero de telefono (Movil)</label><input type="text" required id="NFp" name="Numero de telefono (Fijo):"><br>
+        <input type="submit" class="btn" value="Enviar">
+    </form>
 </body>
 </html>
